@@ -1,0 +1,78 @@
+main {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+h2 {
+color: #3d4449;
+font-family: "Roboto Slab", serif;
+font-weight: 700;
+line-height: 1.5;
+font-size: 1.38889em;
+border-bottom: solid 3px #f56a6a 
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.column {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.icon i {
+    font-size: 2em;
+    color: #e74c3c;
+}
+.text {
+    max-width: calc(100% - 100px);
+}
+.text h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.text p {
+    margin: 0;
+    color: #777;
+}
