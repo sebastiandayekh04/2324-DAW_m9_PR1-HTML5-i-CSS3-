@@ -1,23 +1,10 @@
 main {
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:"Open Sans", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff;
     color: #333;
-}
-
-body {
-    font-family: 'Arial', 'Helvetica', sans-serif; /* Ejemplos de fuentes sans-serif */
-}
-
-h2 {
-    color: #3d4449;
-    font-family: "Roboto Slab", serif;
-    font-weight: 700;
-    line-height: 1.5;
-    font-size: 1.38889em;
-    border-bottom: solid 3px #f56a6a;
 }
 
 main > div {
@@ -40,7 +27,13 @@ h1 {
 }
 
 .underline {
-    width: 50px;
+    width: 160px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin-bottom: 20px;
+}
+.header-underline {
+
     height: 3px;
     background-color: #e74c3c;
     margin-bottom: 20px;
@@ -122,7 +115,7 @@ hader-i {
 }
 
 .header-h2 {
-    font-size: 1.5em; /* Ajusta el tamaño del h1 si es necesario */
+    font-size: 1.5em; /* Ajusta el tamaño del h2 si es necesario */
 }
 
 .social-icons {
@@ -196,13 +189,7 @@ button a {
     color: #333; /* Color de texto oscuro */
 }
 
-.footer-btn .btn-more {
-    display: inline-block; /* Hacer que el enlace se comporte como un botón */
-    padding: 5px 10px; /* Espaciado interno */
-    background-color: #007BFF; /* Color de fondo del botón */
-    color: white; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    border-radius: 5px; /* Bordes redondeados */
-    margin-top: 5px; /* Margen superior */
+#lacinia h1{
+display: flex;
+justify-content: flex-start; 
 }
-
