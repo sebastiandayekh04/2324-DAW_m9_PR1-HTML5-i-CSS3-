@@ -131,3 +131,25 @@ hader-i {
     font-size: 24px; /* Tamaño de los iconos */
     color: #333; /* Color de los iconos */
 }
+
+/* Estilos para los botones */
+button {
+    background-color: white; /* Fondo blanco */
+    color: #f56a6a; /* Texto naranja */
+    border: 2px solid #f56a6a; /* Borde naranja */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+button:hover {
+    background-color: #f56a6a; /* Fondo naranja al pasar el ratón */
+    color: white; /* Texto blanco al pasar el ratón */
+}
+
+button a {
+    color: inherit; /* Hereda el color del botón */
+    text-decoration: none; /* Elimina el subrayado */
+}
