@@ -84,16 +84,14 @@ h1 {
 .text p {
     margin: 0;
     color: #777;
+   
 }
 
 #centrado-P {
     padding: 20px;
     margin: 20px auto; /* Para centrar el div horizontalmente */
     max-width: 80%; /* Ajusta el ancho máximo */
-    background-color: #f9f9f9; /* Color de fondo de la "card" */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar el efecto de tarjeta */
     border-radius: 10px; /* Bordes redondeados */
-    border: 1px solid #ddd; /* Borde suave */
     position: relative; /* Para posicionar elementos dentro de la tarjeta */
 }
 
@@ -102,7 +100,7 @@ a {
     text-decoration: none; /* Elimina el subrayado */
 }
 
-hader-i {
+.header-i {
     color: orange; /* Cambia el color a naranja */
     font-size: 24px; /* Ajusta el tamaño de los iconos si es necesario */
 }
@@ -111,7 +109,6 @@ hader-i {
     display: flex; /* Usamos flexbox para la cabecera */
     justify-content: space-between; /* Espacio entre h1 e iconos */
     align-items: center; /* Alinear verticalmente */
-    padding: 20px; /* Espacio interior para la cabecera */
 }
 
 .header-h2 {
@@ -121,12 +118,13 @@ hader-i {
 .social-icons {
     display: flex; /* Muestra los iconos en fila */  
       gap: 5px; /* Espacio entre los iconos */
+      color: grey;
     
 }
 
 .social-icons i {
-    font-size: 24px; /* Tamaño de los iconos */
-    color: #333; /* Color de los iconos */
+    font-size: 16px; /* Tamaño de los iconos */
+
    
 }
 
