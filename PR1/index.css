@@ -7,13 +7,17 @@ main {
     color: #333;
 }
 
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Ejemplos de fuentes sans-serif */
+}
+
 h2 {
-color: #3d4449;
-font-family: "Roboto Slab", serif;
-font-weight: 700;
-line-height: 1.5;
-font-size: 1.38889em;
-border-bottom: solid 3px #f56a6a 
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.38889em;
+    border-bottom: solid 3px #f56a6a;
 }
 
 main > div {
@@ -28,28 +32,33 @@ main > div {
     margin: 0 auto;
     padding: 20px 0;
 }
+
 h1 {
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .underline {
     width: 50px;
     height: 3px;
     background-color: #e74c3c;
     margin-bottom: 20px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .column {
     width: 48%;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
+
 .icon {
     width: 80px;
     height: 80px;
@@ -60,19 +69,65 @@ h1 {
     margin-right: 20px;
     border-radius: 10px;
 }
+
 .icon i {
     font-size: 2em;
     color: #e74c3c;
 }
+
 .text {
     max-width: calc(100% - 100px);
 }
+
 .text h2 {
     font-size: 1.2em;
     font-weight: bold;
     margin: 0 0 10px 0;
 }
+
 .text p {
     margin: 0;
     color: #777;
+}
+
+#centrado-P {
+    padding: 20px;
+    margin: 20px auto; /* Para centrar el div horizontalmente */
+    max-width: 80%; /* Ajusta el ancho máximo */
+    background-color: #f9f9f9; /* Color de fondo de la "card" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar el efecto de tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde suave */
+    position: relative; /* Para posicionar elementos dentro de la tarjeta */
+}
+
+a {
+    color: inherit; /* Hereda el color del elemento padre */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+hader-i {
+    color: orange; /* Cambia el color a naranja */
+    font-size: 24px; /* Ajusta el tamaño de los iconos si es necesario */
+}
+
+.header-container {
+    display: flex; /* Usamos flexbox para la cabecera */
+    justify-content: space-between; /* Espacio entre h1 e iconos */
+    align-items: center; /* Alinear verticalmente */
+    padding: 20px; /* Espacio interior para la cabecera */
+}
+
+.header-h1 {
+    font-size: 1.5em; /* Ajusta el tamaño del h1 si es necesario */
+}
+
+.social-icons {
+    display: flex; /* Muestra los iconos en fila */
+    gap: 10px; /* Espacio entre los iconos */
+}
+
+.social-icons i {
+    font-size: 24px; /* Tamaño de los iconos */
+    color: #333; /* Color de los iconos */
 }
