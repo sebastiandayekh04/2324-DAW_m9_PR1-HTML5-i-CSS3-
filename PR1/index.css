@@ -182,7 +182,7 @@ button a {
 .footer-image img {
     width: 100%; /* Imagen ocupa el 100% del ancho del contenedor */
     height: auto; /* Mantener la relación de aspecto */
-    max-width: 150px; /* Máximo ancho para controlar el tamaño */
+   
 }
 
 .footer-content {
