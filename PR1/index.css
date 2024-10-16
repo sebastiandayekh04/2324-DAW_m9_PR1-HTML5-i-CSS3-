@@ -161,15 +161,12 @@ button a {
 .footer-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: 20px; /* Espacio entre las tarjetas */
-    padding: 20px;
+
 }
 
 .footer-item {
     background-color: #fff; /* Fondo blanco */
     border: 1px solid #ddd; /* Borde simple */
-    border-radius: 10px; /* Bordes redondeados */
-    text-align: center; /* Centrar el texto */
     padding: 10px; /* Espaciado interno */
 }
 
@@ -208,3 +205,4 @@ button a {
     border-radius: 5px; /* Bordes redondeados */
     margin-top: 5px; /* Margen superior */
 }
+
