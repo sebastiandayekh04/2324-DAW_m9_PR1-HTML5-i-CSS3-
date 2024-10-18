@@ -8,13 +8,14 @@ main {
 
 main > div {
     display: flex;
-    flex-direction: column;
+   
     justify-content: center;
     align-items: center;
 }
 
 .container {
     width: 80%;
+    flex-direction: column;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -189,4 +190,22 @@ button a {
 #lacinia h1{
 display: flex;
 justify-content: flex-start; 
+}
+
+.header-img img{
+    width: 90%; /* Ajusta el tamaño a tu preferencia */
+    height: 60%;
+    border-radius: 5%; /* Hace que la imagen sea redonda */
+    margin-left: 50px;
+}
+.header-top p{
+    font-size: 15px; /* Reduce el tamaño del texto */
+    font-weight: 300; /* Hace la letra más delgada (valores más bajos como 100 o 300 son más delgados) */
+    color: #777;
+}
+
+.header-top h1{
+    font-size: 3em; /* Reduce el tamaño del texto */
+    line-height: 1.3;
+    margin: 0 0 0.5em 0;
 }
