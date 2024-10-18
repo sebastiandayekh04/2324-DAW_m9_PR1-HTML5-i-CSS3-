@@ -93,6 +93,7 @@ h1 {
     max-width: 80%; /* Ajusta el ancho máximo */
     border-radius: 10px; /* Bordes redondeados */
     position: relative; /* Para posicionar elementos dentro de la tarjeta */
+    width: 100%;
 }
 
 a {
@@ -208,4 +209,13 @@ justify-content: flex-start;
     font-size: 3em; /* Reduce el tamaño del texto */
     line-height: 1.3;
     margin: 0 0 0.5em 0;
+}
+
+.parte-central{
+    display: flex;
+}
+
+.barra-lateral{
+    width: 300px;
+    padding: 2.22222em 2.22222em 2.44444em 2.22222em;
 }
