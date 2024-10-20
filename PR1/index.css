@@ -216,6 +216,65 @@ justify-content: flex-start;
 }
 
 .barra-lateral{
-    width: 300px;
-    padding: 2.22222em 2.22222em 2.44444em 2.22222em;
+    width: 24em;
+    background-color: #f5f6f7;
+    font-size: 0.9em;
+    position: relative;
+    
+}
+
+.barra-lateral ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 1px;
+}
+
+.inner nav, .inner section, .inner footer {
+    padding-left: 2em;    
+    padding-right: 2em;
+}
+
+
+#search{
+    padding-top: 3.2em;
+    padding-bottom: 2.6em;
+    width: calc(100% - 4em);
+    margin: 0em 0 3.3em 0em;
+    background-color: #eff1f2;
+}
+
+#search input{
+    margin-bottom: 0;
+}
+
+#search form {
+    text-decoration: none;
+    position: relative;
+}
+
+#search input {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    padding: 10px; /* Añade espacio interior para hacerlo más grande */
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    box-sizing: border-box; /* Asegura que padding no aumente el tamaño total */
+}
+
+
+#search-cont {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search-continput {
+    width: 100%;
+    padding-right: 25px; /* Espacio para el icono a la derecha */
+}
+
+.query-search {
+    position: relative;
+    right: 1.5em; /* Ajusta la posición horizontal del icono a la derecha */
+    color: #7f888f;; /* Color del icono */
+    pointer-events: none; /* Elimina la interacción con el icono para no bloquear el clic en el input */
+  
 }
