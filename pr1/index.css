@@ -1,0 +1,365 @@
+main {
+    font-size: 20px; /* Define el tamaño de fuente para el contenido principal */
+    font-family:"Open Sans", sans-serif; /* Establece la tipografía del texto */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+
+}
+
+main > div {
+    display: flex; /* Activa el diseño flexbox para el div dentro de main */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.container {
+    width: 80%; /* El contenedor ocupa el 80% del ancho de la página */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px 0; /* Añade relleno superior e inferior */
+}
+
+h1 {
+    font-size: 2em; /* Define el tamaño de fuente del encabezado */
+    font-weight: bold; /* Aplica negrita al texto */
+    margin-bottom: 10px; /* Añade un margen inferior */
+}
+
+.underline {
+    width: 160px; /* Ancho de la línea de subrayado */
+    height: 3px; /* Altura de la línea de subrayado */
+    background-color: #e74c3c; /* Color de fondo rojo */
+    margin-bottom: 20px; /* Margen inferior */
+}
+.header-underline {
+    height: 3px; /* Altura de la línea */
+    background-color: #e74c3c; /* Color de la línea */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.row {
+    display: flex; /* Diseño flexible para organizar elementos en fila */
+    flex-wrap: wrap; /* Permite que los elementos se muevan a nuevas filas si es necesario */
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+}
+
+.column {
+    width: 48%; /* Cada columna ocupa el 48% del ancho */
+    display: flex; /* Activa el diseño flexbox dentro de la columna */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin-bottom: 20px; /* Añade un margen inferior */
+}
+
+.icon {
+    width: 80px; /* Ancho del icono */
+    height: 80px; /* Altura del icono */
+    border: 1px solid #ddd; /* Borde del icono */
+    display: flex; /* Activa el diseño flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-right: 20px; /* Margen derecho */
+    border-radius: 10px; /* Bordes redondeados */
+    transform: rotate(45deg); /* Gira el icono 45 grados */
+
+}
+
+.icon i {
+    font-size: 2em; /* Tamaño del icono dentro del contenedor */
+    color: #e74c3c; /* Color del icono */
+    transform: rotate(-45deg); /* Rota el icono hacia atrás para mantenerlo recto */
+}
+
+.text {
+    max-width: calc(100% - 100px);  /* Ajusta el ancho máximo del texto */
+}
+
+.text h2 {
+    font-size: 1.2em; /* Tamaño del subtítulo */
+    font-weight: bold; /* Negrita en el subtítulo */
+    margin: 0 0 10px 0; /* Sin margen superior, con margen inferior */
+}
+
+.text p {
+    margin: 0; /* Sin margen */
+    color: #777; /* Color del texto en gris */
+}
+
+#centrado-P {
+    padding: 20px; /* Relleno interno */
+    margin: 20px auto; /* Para centrar el div horizontalmente */
+    max-width: 80%; /* Ajusta el ancho máximo */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; /* Para posicionar elementos dentro de la tarjeta */
+    width: 100%; /* Ancho del 100% */
+}
+
+a {
+    color: inherit; /* Hereda el color del elemento padre */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.header-i {
+    color: orange; /* Cambia el color a naranja */
+    font-size: 24px; /* Ajusta el tamaño de los iconos si es necesario */
+}
+
+.header-cont {
+    display: flex; /* Usamos flexbox para la cabecera */
+    justify-content: space-between; /* Espacio entre h1 e iconos */
+    align-items: center; /* Alinear verticalmente */
+}
+
+.header-h2 {
+    font-size: 1.5em; /* Ajusta el tamaño del h2 si es necesario */
+}
+
+.social-icons {
+    display: flex; /* Muestra los iconos en fila */  
+      gap: 5px; /* Espacio entre los iconos */
+      color: grey; /* Color de los iconos en gris */
+    
+}
+
+.social-icons i {
+    font-size: 16px; /* Tamaño de los iconos */
+
+   
+}
+
+/* Estilos para los botones */
+button {
+    background-color: white; /* Fondo blanco */
+    color: #f56a6a; /* Texto naranja */
+    border: 2px solid #f56a6a; /* Borde naranja */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+button:hover {
+    background-color: #f56a6a; /* Fondo naranja al pasar el ratón */
+    color: white; /* Texto blanco al pasar el ratón */
+}
+
+button a {
+    color: inherit; /* Hereda el color del botón */
+    text-decoration: none; /* Elimina el subrayado */
+}
+.footer-gallery {
+    display: grid; /* Utiliza un diseño en cuadrícula */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+
+}
+
+.footer-item {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde simple */
+    padding: 10px; /* Espaciado interno */
+}
+
+.footer-image {
+    display: flex; /* Flex para centrar la imagen */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.footer-image img {
+    width: 100%; /* Imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantener la relación de aspecto */
+   
+}
+
+.footer-content {
+    padding: 10px; /* Espaciado interno */
+}
+
+.footer-content h3 {
+    font-size: 1rem; /* Tamaño de fuente pequeño */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+.footer-content p {
+    font-size: 0.8rem; /* Texto más pequeño */
+    color: #333; /* Color de texto oscuro */
+}
+
+#lacinia h1{
+    display: flex; /* Aplica flexbox para el h1 */
+    justify-content: flex-start; /* Alinea el contenido al principio (izquierda) */
+}
+
+.header-img img{
+    width: 90%; /* Ajusta el tamaño a tu preferencia */
+    height: 60%;
+    border-radius: 5%; /* Hace que la imagen sea redonda */
+    margin-left: 50px;
+}
+.header-top p{
+    font-size: 15px; /* Reduce el tamaño del texto */
+    font-weight: 300; /* Hace la letra más delgada (valores más bajos como 100 o 300 son más delgados) */
+    color: #777; /* Color gris para el texto */
+}
+
+.header-top h1{
+    font-size: 3em; /* Tamaño de la fuente para el h1 */
+    line-height: 1.3; /* Altura de línea para mejorar la legibilidad */
+    margin: 0 0 0.5em 0; /* Sin margen superior y margen inferior ajustado */
+}
+
+.parte-central{
+    display: flex; /* Establece un diseño flexible */
+}
+
+.barra-lateral{
+    width: 24em; /* Ancho fijo para la barra lateral */
+    background-color: #f5f6f7; /* Color de fondo gris claro */
+    font-size: 0.9em; /* Tamaño de la fuente ligeramente reducido */
+    position: relative; /* Posicionamiento relativo para elementos hijos */
+}
+
+.barra-lateral ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 1px; /* Ajusta el margen */
+}
+
+.inner nav, .inner section, .inner footer {
+    padding-left: 2em; /* Relleno izquierdo */
+    padding-right: 2em; /* Relleno derecho */
+}
+
+
+#search{
+    padding-top: 3.2em; /* Relleno superior */
+    padding-bottom: 2.6em; /* Relleno inferior */
+    width: calc(100% - 4em); /* Ancho calculado con espacio para el relleno */
+    margin: 0em 0 3.3em 0em; /* Margen inferior */
+    background-color: #eff1f2; /* Fondo gris claro */
+}
+
+#search input{
+    margin-bottom: 0; /* Sin margen inferior */
+}
+
+#search form {
+    text-decoration: none; /* Sin subrayado en el formulario */
+    position: relative; /* Posicionamiento relativo para elementos hijos */
+}
+
+#search input {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    padding: 10px; /* Añade espacio interior para hacerlo más grande */
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    box-sizing: border-box; /* Asegura que padding no aumente el tamaño total */
+}
+
+
+#search-cont {
+    position: relative; /* Posicionamiento relativo para elementos hijos */
+    display: flex; /* Diseño flexible */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+#search-continput {
+    width: 100%; /* El input ocupa todo el ancho disponible */
+    padding-right: 25px; /* Espacio para el icono a la derecha */
+}
+
+.query-search {
+    position: relative; /* Posicionamiento relativo */
+    right: 1.5em; /* Ajusta la posición horizontal del icono a la derecha */
+    color: #7f888f;; /* Color del icono */
+    pointer-events: none; /* Elimina la interacción con el icono para no bloquear el clic en el input */
+  
+}
+
+#menu > ul > li, #menu > ul:not(:last-child){
+    font-weight: 400; /* Grosor normal del texto */
+    letter-spacing: 0.075em; /* Espaciado entre letras */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75); /* Borde inferior gris claro */
+}
+#menu ul li, #menu ul {
+    padding: 10px; /* Añade un relleno de 10px alrededor de cada elemento de la lista del menú y a las listas no ordenadas */
+}
+
+span.Submenu > i {
+    position: absolute; /* Posiciona el ícono de manera absoluta dentro de su contenedor */
+    right: calc(0px + 2em); /* Coloca el ícono 2em a la derecha del contenedor padre */
+}
+
+span.Submenu {
+    cursor: pointer; /* Cambia el cursor al estilo 'pointer' (mano) cuando se pasa sobre el elemento, indicando que es interactivo */
+}
+
+li.Submenu > ul {
+    padding: 10px 0 0 0 !important; /* Añade un relleno superior de 10px al submenú, sobrescribiendo cualquier otro estilo con !important */
+    color: #7f888f; /* Establece un color gris claro para el texto del submenú */
+    font-size: 0.75em; /* Disminuye el tamaño del texto del submenú */
+    font-weight: 500; /* Define el grosor de la fuente del submenú a 500 (normal) */
+}
+
+#menu ul li a:hover, #menu ul li span:hover {
+    color: #f56a6a; /* Cambia el color del texto a naranja cuando se pasa el cursor sobre los enlaces o spans del menú */
+}
+
+.mini-posts article {
+    border-top: solid 1px rgba(210, 215, 217, 0.75); /* Añade un borde superior gris claro con un grosor de 1px */
+    margin-top: 2em; /* Añade un margen superior de 2em */
+    padding-top: 2em; /* Añade un relleno superior de 2em */
+}
+
+a.image {
+    overflow: hidden; /* Oculta cualquier contenido que exceda el área del contenedor */
+}
+
+.mini-posts article img {
+    border-radius: 0.375em; /* Aplica un borde redondeado de 0.375em a las imágenes de los artículos */
+}
+
+.mini-posts article p {
+    color: #7f888f; /* Establece un color gris claro para los párrafos dentro de los artículos */
+}
+
+section.articles {
+    margin: 0 0 3.5em 0; /* Establece márgenes superior e inferior de 0 y 3.5em respectivamente */
+    padding: 0 0 3.5em 0; /* Añade un relleno inferior de 3.5em */
+    color: #7f888f; /* Establece el color gris para el texto de la sección de artículos */
+}
+
+footer#footer {
+    padding: 0.1 0 3.5em 0; /* Añade un pequeño relleno superior de 0.1em y un relleno inferior de 3.5em */
+    color: #7f888f; /* Define un color gris para el texto del pie de página */
+}
+
+.contact li i {
+    color: #f56a6a; /* Define un color naranja para los íconos de la lista de contacto */
+    margin-right: 8px; /* Añade un pequeño espacio entre el ícono y el texto */
+    font-size: 1.5em; /* Establece un tamaño de fuente de 1.5em para los íconos */
+}
+
+ul.contact {
+    padding-left: 2em; /* Añade un relleno a la izquierda de 2em a la lista de contacto */
+}
+
+section.articles > ul > li {
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75); /* Añade un borde inferior gris claro con un grosor de 2px a los elementos de la lista */
+    margin: 0 0 1.5em 0; /* Establece un margen inferior de 1.5em */
+    padding: 0 0 1.5em 0; /* Añade un relleno inferior de 1.5em */
+}
+
+.contact li:first-child {
+    padding-top: 1em; /* Añade un relleno superior de 1em al primer elemento de la lista de contacto */
+}
+
+.contact li:last-child {
+    padding-bottom: 2em; /* Añade un relleno inferior de 2em al último elemento de la lista de contacto */
+}
+
+.inner > * {
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75); /* Añade un borde inferior gris claro de 2px a cada elemento hijo dentro del contenedor "inner" */
+    margin: 0 0 3.5em 0; /* Establece un margen inferior de 3.5em */
+    padding: 0 0 3.5em 0; /* Añade un relleno inferior de 3.5em */
+}
