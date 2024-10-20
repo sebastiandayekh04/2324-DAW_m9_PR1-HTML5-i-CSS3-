@@ -278,3 +278,52 @@ justify-content: flex-start;
     pointer-events: none; /* Elimina la interacción con el icono para no bloquear el clic en el input */
   
 }
+
+#menu > ul > li, #menu > ul{
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+}
+#menu  ul  li, #menu  ul {
+    padding: 10px;
+}
+
+
+span.Submenu > i {
+    position: absolute;
+    right: calc(0px + 2em);
+}
+
+span.Submenu {
+    cursor: pointer;
+}
+
+
+
+li.Submenu > ul {
+    padding: 10px 0 0 0 !important;
+    color: #7f888f;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+#menu ul li a:hover, #menu ul li span:hover{
+    color: #f56a6a;
+}
+
+.mini-posts article {
+    border-top: solid 1px rgba(210, 215, 217, 0.75);
+    margin-top: 2em;
+    padding-top: 2em;
+}
+a.image {
+    overflow: hidden;
+}
+.mini-posts article img{
+    border-radius: 0.375em;
+}
+
+.mini-posts article p {
+    color: #7f888f;
+}
