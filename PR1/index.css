@@ -279,7 +279,7 @@ justify-content: flex-start;
   
 }
 
-#menu > ul > li, #menu > ul{
+#menu > ul > li, #menu > ul:not(:last-child){
     font-weight: 400;
     letter-spacing: 0.075em;
     text-transform: uppercase;
@@ -298,8 +298,6 @@ span.Submenu > i {
 span.Submenu {
     cursor: pointer;
 }
-
-
 
 li.Submenu > ul {
     padding: 10px 0 0 0 !important;
@@ -328,9 +326,36 @@ a.image {
     color: #7f888f;
 }
 
-section.articles {
-    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+section.articles{
     margin: 0 0 3.5em 0;
     padding: 0 0 3.5em 0;
     color: #7f888f;
+}
+
+footer#footer {
+    padding: 0.1 0 3.5em 0;
+    color: #7f888f;
+}
+.contact li i{
+    color: #f56a6a;
+    margin-right: 8px; /* Añade un pequeño espacio entre el ícono y el texto */
+    font-size: 1.5em;
+}
+ul.contact {
+    padding-left: 2em;
+}
+
+
+section.articles > ul > li {
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    margin: 0 0 1.5em 0;
+    padding: 0 0 1.5em 0;
+}
+
+.contact li:first-child {
+    padding-top: 1em;
+}
+
+.contact li:last-child {
+    padding-bottom: 2em;
 }
